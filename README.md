@@ -112,8 +112,8 @@ After processing all grids, the method returns the outputImage, which now contai
   2) Rotate the image 90 degrees anticlockwise.
   3) Rotate the image 90 degrees clockwise.
   4) Change the brightness of the image (increase or decrease).
-  5) Vertically invert the image.
-  6) Horizontally invert the image (mirror image).
+  5) Inverts alnog vertical axis the image (mirror image).
+  6) Inverts along horizontal axis the image (water image).
   7) Apply pixelated blur or Gaussian blur to the image.
 The user also specifies additional parameters such as brightness adjustment percentage and blur amount where necessary.
 - Follow the on-screen instructions to perform the desired operation on your image.
@@ -126,8 +126,8 @@ This Java program, ImageEditor2, is a simple image processing tool that allows y
 1) Convert to Grayscale: Converts the input image to grayscale.
 2) Rotate Image Clockwise: Rotates the input image by 90 degrees clockwise.
 3) Rotate Image Anticlockwise: Rotates the input image by 90 degrees anticlockwise.
-4) Invert Image Horizontally: Horizontally inverts (mirrors) the input image.
-5) Invert Image Vertically: Vertically inverts (flips) the input image.
+4) Invert Image Horizontally: Inverts Image along the vertical axis the input image.
+5) Invert Image Vertically:  Inverts Image along the horizontal axis the input image.
 6)Change Brightness: Increases or decreases the brightness of the image based on user input.
 7) Apply Pixelated Blur: Applies a pixelated blur effect to the image based on a specified blur size matrix.
 
