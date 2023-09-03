@@ -128,7 +128,7 @@ This Java program, ImageEditor2, is a simple image processing tool that allows y
 3) Rotate Image Anticlockwise: Rotates the input image by 90 degrees anticlockwise.
 4) Invert Image Horizontally: Inverts Image along the vertical axis the input image.
 5) Invert Image Vertically:  Inverts Image along the horizontal axis the input image.
-6)Change Brightness: Increases or decreases the brightness of the image based on user input.
+6) Change Brightness: Increases or decreases the brightness of the image based on user input.
 7) Apply Pixelated Blur: Applies a pixelated blur effect to the image based on a specified blur size matrix.
 
 # HOW TO USE ? 
