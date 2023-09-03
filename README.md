@@ -73,9 +73,7 @@ Follow these steps to get started with the Java Image Editor:
 - It creates a new BufferedImage, outputImage, with swapped width and height compared to the input image, effectively creating a new image with rotated dimensions.
 - It iterates over each pixel in the input image using nested loops. For each pixel, it retrieves the RGB value (color) from the input image and sets it in the outputImage with the row and column positions swapped. This swapping of rows and columns results in the image being rotated 90 degrees clockwise.
 - After processing all pixels, the method proceeds with an additional step to complete the clockwise rotation:
-   1) It calculates the new dimensions of the outputImage (swapped width and height).
-   2) It iterates through half of the newWidth (the width of the rotated image divided by 2 and the full newHeight.
-   3) For each pixel, it performs a swap operation between the left and right halves of the image columns, effectively rotating the image 90 degrees clockwise.
+   1) It uses the invert vertically function, which flips the image along the vertical axis.
 - After processing all pixels, the method returns the outputImage, which now contains the input image rotated 90 degrees clockwise.
 
 3) ROTATE ANTI-CLOCKWISE
