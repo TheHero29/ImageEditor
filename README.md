@@ -30,11 +30,11 @@ ORIGINAL IMAGE :
 
 - *Adjust Brightness:* Increase image brightness.
   
-  ![Image Editor Screenshot](BrighterMinato.jpg)
+  ![Image Editor Screenshot](brighterMinato.jpg)
 
 - *Adjust Brightness:* Decrease image brightness.
 
-  ![Image Editor Screenshot](BrighterMinato2.jpg)
+  ![Image Editor Screenshot](brighterMinato2.jpg)
 
 - *Blur Images:* Blur an image.
 
