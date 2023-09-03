@@ -10,7 +10,7 @@ ORIGINAL IMAGE :
 
 - *Convert to Grayscale:* Transform colored images into grayscale.
   
-  ![Image Editor Screenshot](grayScaleMinato.jpg)
+  ![Image Editor Screenshot](grayScale-Minato.jpg)
 
 - *Rotate:* Rotate images 90 degrees clockwise.
   
