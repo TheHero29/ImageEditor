@@ -20,11 +20,11 @@ ORIGINAL IMAGE :
 
   ![Image Editor Screenshot](rotated-anticlockwiseMinato.jpg)
 
-- *Horizontal Invert:* Flip images horizontally.
+- *Horizontal Invert:* Flip images along horizontal axis.
   
   ![Image Editor Screenshot](horizontallyInversedMinato.jpg)
 
-- *Vertical Invert:* Flip images vertically.
+- *Vertical Invert:* Flip images along vertical axis.
   
   ![Image Editor Screenshot](verticallyInversedMinato.jpg)
 
@@ -81,9 +81,10 @@ Follow these steps to get started with the Java Image Editor:
 3) ROTATE ANTI-CLOCKWISE
 - The rotate clockwise function is used three times to give the same result as rotating anticlockwise.   
 
-4) HORIZONTAL INVERSION : This Java code defines a method invertImageHorizontally to horizontally flip a BufferedImage. It iterates through half of the image's width, swapping pixel values from left to right within each row to create a horizontally inverted version of the input image. The result is stored in outputImage, which is returned at the end.
+4) HORIZONTAL INVERSION : This Java code defines a method reverseHorizontally to flip a BufferedImage along the horizontal axis.  It iterates through half of the image's height and swaps pixel values between the top and bottom halves to achieve an image inverted along horizontal axis. The result is stored in outputImage, which is returned at the end.
 
-5) VERTICAL INVERSION : This Java method, invertImageVertically, flips the input image vertically along its horizontal axis. It iterates through half of the image's height and swaps pixel values between the top and bottom halves to achieve vertical inversion. The result is returned as outputImage.
+5) VERTICAL INVERSION : This Java method, reverseVertically, flips the input image along its vertical axis. It iterates through half of the image's width, swapping pixel values from left to right within each row to create a
+inversion along the vertical axis. The result is returned as outputImage.
 
 6) CHANGE BRIGHTNESS : This Java code defines a method changeBrightness to adjust the brightness of a BufferedImage. It iterates through each pixel in the image, and based on the option parameter:
 7) 
@@ -120,7 +121,7 @@ The user also specifies additional parameters such as brightness adjustment perc
   
 # CODE EXPLANATION :
 
-This Java program, ImageEditor1, is a simple image processing tool that allows you to perform various operations on an input image. It provides the following image manipulation functionalities:
+This Java program, ImageEditor2, is a simple image processing tool that allows you to perform various operations on an input image. It provides the following image manipulation functionalities:
 
 1) Convert to Grayscale: Converts the input image to grayscale.
 2) Rotate Image Clockwise: Rotates the input image by 90 degrees clockwise.
@@ -131,23 +132,23 @@ This Java program, ImageEditor1, is a simple image processing tool that allows y
 7) Apply Pixelated Blur: Applies a pixelated blur effect to the image based on a specified blur size matrix.
 
 # HOW TO USE ? 
-Run the program and provide the path to the input image file.
+Run the program and provide the name of the input image file(e.g., "Minato.jpg").
 
 Choose one of the following operations by entering the corresponding number:
 
 1) Convert to Grayscale
 2) Rotate Image Clockwise
 3) Rotate Image Anticlockwise 
-4) Invert Image Horizontally
-5) Invert Image Vertically
+4) Invert Image along Horizontal axis
+5) Invert Image along Vertical axis
 6) Change Brightness
 7) Apply Pixelated Blur
 
 - Depending on your choice, you may need to provide additional information such as the brightness change percentage or blur size matrix.
 
-- Enter the name for the output image file (e.g., "output.jpg").
+- The output Image will be saved as the name of the input Image with the specified function(e.g., "grayScale-Minato.jpg").
 
-- The program will perform the selected operation on the input image and save the resulting image as the specified output file.
+- The program will perform the selected operation on the input image and save the resulting image as the output file.
 
 
 
