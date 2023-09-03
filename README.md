@@ -160,7 +160,7 @@ Choose one of the following operations by entering the corresponding number:
 
 ![Image Editor Screenshot](brightnessOutput.png)
 
-![Image Editor Screenshot](decreasedBrightnessOutput)
+![Image Editor Screenshot](decreasedBrightnessOutput.png)
 
 ![Image Editor Screenshot](blurredOutput.png)
 
