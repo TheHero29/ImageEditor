@@ -1,26 +1,13 @@
-import java.io.File; // bcoz we are reading input from a File
+import java.io.File; 
 import java.io.IOException;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.util.*;
 import java.lang.*;
-;
-public class imageEditor2 {
-    public static void printPixelValues(BufferedImage inputImage)
-    {
-        int height = inputImage.getHeight();
-        int width = inputImage.getWidth();
-        for(int i=0;i<height;i++){
-            for(int j=0;j<width;j++)
-            {
-                Color pixel = new Color(inputImage.getRGB(j, i));
-                System.out.print("[" + pixel.getRed() + " " + pixel.getBlue() + " "+ pixel.getGreen() + "]");
-            }
-            System.out.println();
-        }
-    }
 
+public class imageEditor2 {
+    //GrayScale
     public static BufferedImage convertToGrayScale(BufferedImage inputImage)
     {
         int height=inputImage.getHeight();
@@ -36,14 +23,7 @@ public class imageEditor2 {
         return outputImage;
     }
 
-   /*  public static void rotateImageLeft(BufferedImage inputImage)
-    {
-        int height=inputImage.getHeight();
-        int width=inputImage.getWidth();
-        
-
-    }
-*/
+    //reverse Horizontally
     public static void reverseHorizontally(BufferedImage inputImage)
     {
         int height = inputImage.getHeight();
@@ -58,7 +38,8 @@ public class imageEditor2 {
             }
         }
     }
-     
+
+    //reverse Vertically
     public static void reverseVertically(BufferedImage inputImage)
     {
         int height=inputImage.getHeight();
@@ -74,7 +55,7 @@ public class imageEditor2 {
         }
     }
 
-    //try to understand your own code bruh
+    //rotates Image clockwise
     public static BufferedImage rotateImageRight(BufferedImage inputImage)
     {
         int height=inputImage.getHeight();
@@ -91,6 +72,7 @@ public class imageEditor2 {
         return outputImage;
     }
 
+    //changes the brightness of the image
     public static BufferedImage changeBrightness(BufferedImage inputImage,int change)
     {
         int height = inputImage.getHeight();
@@ -121,6 +103,7 @@ public class imageEditor2 {
         return outputImage;
     }
 
+    //blurs the image to the desired level
     public static void BlurImage(BufferedImage inputImage, int blurValue)
     {
         int a = blurValue;
@@ -159,6 +142,7 @@ public class imageEditor2 {
         }        
     }
 
+    //main program
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
@@ -226,10 +210,10 @@ public class imageEditor2 {
             
             
             }
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
+            } catch (IOException e) 
+            {
             e.printStackTrace();
-        }
+            }
         
     }
     
