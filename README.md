@@ -150,7 +150,7 @@ Choose one of the following operations by entering the corresponding number:
 
 - The program will perform the selected operation on the input image and save the resulting image as the output file.
 
-# NOTE
+# NOTE :
 - The invert vertically function inverts the image along the vertical axis.
   
 - The invert horizontally function inverts the image along the horizontal axis.
