@@ -170,7 +170,7 @@ Choose one of the following operations by entering the corresponding number:
 __________________________________________________________
 
 
-ENJOY IMAGE EDITING WITH JAVA !
+ENJOY THIS JAVA IMAGE EDITOR!
 
 
 
